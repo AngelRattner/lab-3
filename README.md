@@ -3,7 +3,7 @@
 
 ## Preparation
 
- - Ask the instructor for the server IP and credentials
+ - Please login to your gitlab.com account
 
 ### Import the lab repository
 
@@ -137,7 +137,7 @@ Stage 05 -> Archive artifacts
 (the job must run in your build server)
 ```
 
- - Run the job and ensure that success (To get the solution click [here](./solution.txt))
+ - Run the job and ensure that success (To get the solution click [here](./metrials/solution.txt))
 
 ---
 
