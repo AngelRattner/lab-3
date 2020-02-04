@@ -1,0 +1,30 @@
+ pipeline {
+    agent {label '34.77.152.3'}
+    stages {
+        stage('Get Sources') {
+            steps {
+                git 'git@34.77.9.203:demo/demo-app-pipeline.git'
+            }
+        }
+        stage('Restore Dependencies') {
+            steps {
+                sh 'npm install'
+            }
+        }
+        stage('Test') { 
+            steps {
+                sh 'npm run test' 
+            }
+        }
+        stage('Package') { 
+            steps {
+                sh 'npm run build' 
+            }
+        }
+        stage('Archive Artifacts') { 
+            steps {
+                archiveArtifacts '*.zip'
+            }
+        }
+    }
+}
