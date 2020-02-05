@@ -3,7 +3,7 @@
 
 ## Preparation
 
- - Please login to your gitlab.com account
+ - Please login to your gitlab.com account or open an account  [here](www.gitlab.com)
 
 ### Import the lab repository
 
