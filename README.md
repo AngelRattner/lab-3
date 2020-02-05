@@ -7,7 +7,7 @@
 
 ### Import the lab repository
 
- - Browse to the Gitlab server, login and create a new project
+ - Browse to the Gitlab server, login and go to "projects" tab and click on "new project"
  
 ![Image 1](images/image-01.png)
 
