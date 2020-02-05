@@ -1,9 +1,9 @@
  pipeline {
-    agent {label '34.77.152.3'}
+    agent {label '<your server>'}
     stages {
         stage('Get Sources') {
             steps {
-                git 'git@34.77.9.203:demo/demo-app-pipeline.git'
+                git '< repo ssh>'
             }
         }
         stage('Restore Dependencies') {
