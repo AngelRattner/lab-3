@@ -11,7 +11,7 @@
  
 ![Image 1](images/image-01.png)
 
- - Select import repository, repo by url and paste the url below
+ - Select "import" repository, repo by url and paste the url down below
  
 ```
 https://gitlab.com/sela-labs/demo-app.git
@@ -35,7 +35,7 @@ demo-app-pipeline
 
 ### Configure an SSH key
 
- - Create a new SSH key by run the command below in the build server
+ - Please login to your **BUILD** server  and Create a new SSH key by runnig the command doen below :
 
 ```
 ssh-keygen -o -t rsa -b 4096 -C "email@example.com"
