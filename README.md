@@ -80,11 +80,8 @@ cat ~/.ssh/id_rsa.pub
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDTjRGnHjiOHJmajna+J+hqKxqPqQ5ryN4enaKEINRYIu1S7hj3egDcSIkOorWZ1P/XT/SSwu0AsjEUtZvl0zMS7LAGfH5YDE2pI9j30qGjDf7pKaNbz13ZaW/O8D+QQtZwVylsL3hmurJsESlPTtfRQ8Qf7P80giD+2FoVjsAKTJzYN1sblUVhPJlfkl+FvTemByCUEw58WE03+sbwvFqzFUIg/i1ENj0jZ/XOnwKIhudoA3HMzTcAERaQ58iijMp462VD/M8OevpwF9uQWdJHFDOlFZaGYsGjc98ESjB2fGAvTNwXeSO46GY2rHe3oO/RLIiQe7yhJ70jdzMEUAmPkpOZZbHgahAWVERPrm9Xs8uIrvp0nKpSzFWfwkZje3mZ89ozPcOx2mS1/1f4jX/z8RGvAnA1viDPSvdaUroI1PTZgkhyjRTLK9wBzzpoQQRRSzYdW5QXx9SNH+sTuJFEckC1bruTb3X58t1GJvc4LgY0pShOjFBJ5XnoTSCwXmmV/78xDzrQrNe8yGbaqfD0Eb/vZUnMBvBtZkx+0LQ4We+dexvTXzdZsKKl1+kHeUxMfAk/yp9Kp8U8F1MCiusVqwPdhPSpuunyYSv9FrLimQ0ce3Hq1fdbZK+DQEVBZY6dK9/vd+QqUk9pdOx2ViC1/0EBBJEabSgDvC2KehXRwQ== youremail@email.com
 ```
 
- - Login to Gitlab and go to the user settings section
+ - Click on your AVATAR section located on your right hand side of the screen -> settings -> SSH Keys
  
-![Image 5](images/image-05.png)
-
- - Go to the SSH keys section
  
 ![Image 6](images/image-06.png)
 
