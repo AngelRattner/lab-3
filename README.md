@@ -82,7 +82,6 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDTjRGnHjiOHJmajna+J+hqKxqPqQ5ryN4enaKEINRY
 
  - Click on your AVATAR section located on your right hand side of the screen -> settings -> SSH Keys
  
- 
 ![Image 6](images/image-06.png)
 
  - Paste your SSH key and click "Add Key"
@@ -90,6 +89,10 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDTjRGnHjiOHJmajna+J+hqKxqPqQ5ryN4enaKEINRY
 ![Image 7](images/image-07.png)
 
  - Clone the repository using the SSH url to test your key
+
+```
+git clone <your repo>
+```
 
 ![Image 8](images/image-08.png)
 
@@ -113,7 +116,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDTjRGnHjiOHJmajna+J+hqKxqPqQ5ryN4enaKEINRY
 ![Image 11](images/image-11.png)
 
 
- - Set the job name "pipeline-<your-name>" and select "Pipeline"
+ - Set the job name "pipeline-*your-name*" and select "Pipeline"
 
 ![Image 12](images/image-12.png)
 
