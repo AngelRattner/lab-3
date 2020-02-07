@@ -151,6 +151,8 @@ Stage 05 -> Archive artifacts
 
 ![Image 15](images/image-15.png)
 
+### Do this part without help
+
  - Update the jenkins job to work with SCM instead of inline script
 
  - Trigger the build and ensure it success
