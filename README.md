@@ -14,7 +14,7 @@
  - Select "import" repository, repo by url and paste the url down below
  
 ```
-https://gitlab.com/ormaman/demo-app-pipeline.git
+https://gitlab.com/sela-devops/courses/jenkins-cicd/demo-app.git
 ```
 
 ![Image 2](images/image-02.png)
