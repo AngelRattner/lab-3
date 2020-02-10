@@ -106,6 +106,13 @@ git clone <your repo>
 
 ### Create a Jenkins Pipeline from script
 
+ - In the jenkins portal click on **New view**
+ 
+![Image 21](images/New_view.PNG)
+
+ - Enter **pipeline** and click on **ok** button and another **ok** on the next window
+![Image 20](images/image_pipeline.PNG)
+
  - Go to the pipeline folder
 
 ![Image 10](images/image-10.png)
