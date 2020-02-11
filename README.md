@@ -35,7 +35,7 @@ demo-app-pipeline
 
 ### Configure an SSH key
 
- - Please login to your **BUILD** server  and Create a new SSH key by runnig the command doen below :
+ - Please login to your **BUILD\infrastructure** server  and Create a new SSH key by runnig the command doen below :
 
 ```
 ssh-keygen -o -t rsa -b 4096 -C "email@example.com"
