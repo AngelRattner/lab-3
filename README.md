@@ -147,7 +147,8 @@ Stage 05 -> Archive artifacts
 
 ---
 
-### Create a Jenkins Pipeline from source control (not working on gitlab)
+### Create a Jenkins Pipeline from source control 
+ - Now we want the jenkins script to run from an actual file sourced in gitlab rather than from an inline section on jenkins server
 
  - In the root of the repository create a file called "Jenkinsfile"
 
