@@ -88,7 +88,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDTjRGnHjiOHJmajna+J+hqKxqPqQ5ryN4enaKEINRY
 
 ![Image 7](images/image-07.png)
 
- - Clone the repository using the SSH url to test your key
+ - Clone the repository on your **infrastructure** server using the SSH url to test your key
 
 ```
 git clone <Your-New-Repo>
