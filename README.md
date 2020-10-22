@@ -133,7 +133,7 @@ git clone <Your-New-Repo>
 ![Image 13](images/image-13.png)
 
 
- - Configure the build process (use the "Pipeline Syntax" link for help) [link](https://jenkins.io/doc/book/pipeline/syntax)
+ - Configure the build process by the following blueprint (use the "Pipeline Syntax" link for help) [link](https://jenkins.io/doc/book/pipeline/syntax)
 ```
 Stage 01 -> Get sources (git clone)
 Stage 02 -> npm install
