@@ -1,9 +1,9 @@
  pipeline {
-    agent {label '<Your_Agent's_Label>'}
+    agent {label '<Your_Agent_Label>'}
     stages {
         stage('Get Sources') {
             steps {
-                git <Your_Repo_SSH_URL>
+                git '<Your_Repo_SSH_URL>'
             }
         }
         stage('Restore Dependencies') {
