@@ -3,7 +3,7 @@
     stages {
         stage('Get Sources') {
             steps {
-                git <Your-Repo-SSH-URL>
+                git <Your_Repo_SSH_URL>
             }
         }
         stage('Restore Dependencies') {
