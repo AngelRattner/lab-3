@@ -7,6 +7,8 @@
 
 ### Import the lab repository
 
+- Note that I will use Gitlab, but you can use Github as well
+
  - Browse to the Gitlab server, login and go to "projects" tab and click on "new project"
  
 ![Image 1](images/image-01.png)
@@ -35,7 +37,7 @@ demo-app-pipeline
 
 ### Configure an SSH key
 
- - Please login to your **BUILD\infrastructure** server  and Create a new SSH key by runnig the command doen below :
+ - Please login to your **Infrastructure** server and Create a new SSH key by runnig the commands below:
 
 ```
 ssh-keygen -o -t rsa -b 4096 -C "email@example.com"
@@ -158,8 +160,8 @@ Stage 05 -> Archive artifacts
 
 ![Image 15](images/image-15.png)
 
-### Do this part without help
+ - Finally Update the jenkins job to work with SCM instead of inline script (using the https url)
 
- - Update the jenkins job to work with SCM instead of inline script
+![Image 16](images/image-16.png)
 
  - Trigger the build and ensure it success
