@@ -142,7 +142,8 @@ Stage 02 -> npm install
 Stage 03 -> npm test
 Stage 04 -> npm run build
 Stage 05 -> Archive artifacts
-(the job must run in your build server)
+
+(the job must run in your infrastructure server)
 ```
 
  - Run the job and ensure that success (To get the solution click [here](./metrials/solution.txt))
@@ -150,6 +151,7 @@ Stage 05 -> Archive artifacts
 ---
 
 ### Create a Jenkins Pipeline from source control 
+
  - Now we want the jenkins script to run from an actual file sourced in gitlab rather than from an inline section on jenkins server
 
  - In the root of the repository create a file called "Jenkinsfile"
